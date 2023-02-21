@@ -1,0 +1,26 @@
+.ic {
+    width: 3em; height: 3em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.ic-dana-1 {
+    .cls-1 {
+        fill: $dana-4;
+    }
+
+    .cls-2 {
+        fill: $dana-3;
+    }
+}
+
+.ic-dana-2 {
+    .cls-1 {
+        fill: $dana-2;
+    }
+
+    .cls-2 {
+        fill: $dana-1;
+    }
+}

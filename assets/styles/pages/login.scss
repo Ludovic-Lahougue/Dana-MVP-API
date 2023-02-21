@@ -1,0 +1,83 @@
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px rgba($dana-3, .25) inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.login-container {
+    height: 100%;
+    background-color: $dana-1;
+    overflow: hidden;
+}
+
+.ic {
+    width: 50%;
+    height: auto;
+    margin-bottom: 7vh;
+}
+
+.dana-pattern {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(-7%, -50%);
+    width: auto;
+    height: 110%;
+    opacity: .4;
+}
+
+.dana-slogan {
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translate(-100%, -100%);
+    width: auto;
+    height: 20%;
+}
+
+.form-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    text-align: center;
+    padding: 15vh 0;
+
+    .form {
+        position: relative;
+        padding: 1vh 1vw;
+
+        .form-input {
+            display: block;
+            background-color: rgba($dana-3, .25);
+            width: 100%;
+            padding: 2vh 2vw;
+            margin-bottom: 4vh;
+            box-sizing: border-box;
+            border-radius: 7vw;
+            border: none;
+            font-size: max(1.5vw, .7rem);
+            letter-spacing: 1px;
+            color: rgba($dana-3, .5);
+            font-family: 'poppinsregular';
+        }
+
+        .form-label {
+            color: rgba($dana-3, .5);
+        }
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .dana-pattern {
+        display: none;
+    }
+}

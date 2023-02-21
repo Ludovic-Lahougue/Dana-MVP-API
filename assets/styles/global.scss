@@ -1,0 +1,16 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+@import "./variables.scss";
+@import "./icons.scss";
+@import "../fonts/poppins/poppins-2/stylesheet.css";
+
+@import "./_components/form.scss";
+@import "./_components/button.scss";
+
+@import "./pages/login.scss";
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}

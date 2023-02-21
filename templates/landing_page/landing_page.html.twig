@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dana</title>
+    <link rel="icon" type="image/png" href="{{ asset('images/dana/logo') }}" />
+    {{ encore_entry_link_tags('landing_page') }}
+</head>
+<body>
+    <main>
+        <!--? Top -->
+        <div class="top">
+            <header>
+                <div class="topBar">
+                    <img src="../../ressources/images/logo-complet.png" alt="Dana">
+                    <div id="toggleMenu" class="menu-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                        </svg>
+                    </div>
+                </div>
+                <nav class="topNav" id="topNav">
+                    <a href="#offres">Offres</a>
+                    <a href="#fonctionnalites">Fonctionnalités</a>
+                    <a href="#sorties">Sorties</a>
+                    <a href="#pro">Pour les pros</a>
+                </nav>
+                <p class="text-bold ">Dana</p>
+            </header>
+            <section class="content">
+                <h1>
+                    <div class="bar"></div>
+                    Les réducs<br>qui te cultivent
+                </h1>
+                <div class="footer">
+                    <a class="btn btn-primary" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSe36G2zzIAMAB5WJGPE4TlGYQXbcBrB1k3IvmKvTbwhyYWKFg/viewform">
+                        <p>Tenez moi informé !</p>
+                    </a>
+                    <div class="location">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="icon-primary icon-location" viewBox="0 0 16 16">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                        </svg>
+                        <div class="text">
+                            <p>Sur l'agglo de</p>
+                            <p class="text-bold">Caen La Mer</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!--? /Top -->
+
+        <!--? Main -->
+        <div class="main-content">
+            <div class="container corner">
+                <section>
+                    <h1 id="offres">
+                        <div class="bar"></div>
+                        Profite d'offres de dernière minute
+                    </h1>
+                    <div class="paragraph">
+                        <p>Notre priorité ? Rendre accessible la culture à tous !</p>
+                    </div>
+                    <div class="paragraph">
+                        <p>Bénéficie de billets à prix réduit deux heures avant la séance.</p>
+                        <p>Il reste 3 place au théâtre ? Elles sont pour toi !</p>
+                        <p>Des bon plans chaque mois à découvrir sur l'appli.</p>
+                    </div>
+                    <div class="footer">
+                        <a class="btn btn-secondary" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSe36G2zzIAMAB5WJGPE4TlGYQXbcBrB1k3IvmKvTbwhyYWKFg/viewform">
+                            <p>ça m'intéresse</p>
+                        </a>
+                    </div>
+                </section>
+
+                <section>
+                    <h1 id="fonctionnalites">
+                        <div class="bar"></div>
+                        Tout réunir en un seul endroit
+                    </h1>
+                    <div class="paragraph">
+                        <p>"On fait quoi dimanche ? Tu veux aller voir ce film ? Je veux voir cette pièce !"</p>
+                    </div>
+                    <div class="paragraph">
+                        <p>Toutes les sorties culturellles près de chez toi sont disponibles sur l'application Dana !</p>
+                        <p>Tu peux rechercher ton événement, te renseigner sur les informations de la salle,</p>
+                        <p>Réserver ton billet et bénéficier d'offres de dérnière minute.</p>
+                    </div>
+                    <div class="paragraph">
+                        <p>De A à Z, organise tes sorties en famille ou entre amis sur une seule appli !</p>
+                    </div>
+                    <div class="footer fonctions" id="scroll-1">
+                        <div class="fonction">
+                            <div class="icon-calendar">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" fill="currentColor" class="icon-secondary" viewBox="0 0 16 16">
+                                    <path d="M6.445 11.688V6.354h-.633A12.6 12.6 0 0 0 4.5 7.16v.695c.375-.257.969-.62 1.258-.777h.012v4.61h.675zm1.188-1.305c.047.64.594 1.406 1.703 1.406 1.258 0 2-1.066 2-2.871 0-1.934-.781-2.668-1.953-2.668-.926 0-1.797.672-1.797 1.809 0 1.16.824 1.77 1.676 1.77.746 0 1.23-.376 1.383-.79h.027c-.004 1.316-.461 2.164-1.305 2.164-.664 0-1.008-.45-1.05-.82h-.684zm2.953-2.317c0 .696-.559 1.18-1.184 1.18-.601 0-1.144-.383-1.144-1.2 0-.823.582-1.21 1.168-1.21.633 0 1.16.398 1.16 1.23z"/>
+                                    <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                                </svg>
+                            </div>
+                            <div class="bar-2"></div>
+                            <div class="fonction-content fonction-content-1">
+                                <h2 class="text-bold">L'agenda de tes sorties</h2>
+                                <div class="bar"></div>
+                                <p>Un seul endroit pour retrouver toute tes sorties culturellles dans l'agglomération caennaise grâce à un agenda.</p>
+                            </div>
+                        </div>
+
+                        <div class="fonction">
+                            <div class="icon-calendar">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" fill="currentColor" class="icon-secondary" viewBox="0 0 16 16">
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                                </svg>
+                            </div>
+                            <div class="bar-2"></div>
+                            <div class="fonction-content fonction-content-2">
+                                <h2 class="text-bold">Les salles près de chez toi</h2>
+                                <div class="bar"></div>
+                                <p>Retrouve les salles à proximité. Tu peux accéder à leurs informations partiques : horaires, accessibilité, transport et parking.</p>
+                            </div>
+                        </div>
+
+                        <div class="fonction">
+                            <div class="icon-calendar">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" fill="currentColor" class="icon-secondary" viewBox="0 0 16 16">
+                                    <path d="M4 4.85v.9h1v-.9H4Zm7 0v.9h1v-.9h-1Zm-7 1.8v.9h1v-.9H4Zm7 0v.9h1v-.9h-1Zm-7 1.8v.9h1v-.9H4Zm7 0v.9h1v-.9h-1Zm-7 1.8v.9h1v-.9H4Zm7 0v.9h1v-.9h-1Z"/>
+                                    <path d="M1.5 3A1.5 1.5 0 0 0 0 4.5V6a.5.5 0 0 0 .5.5 1.5 1.5 0 1 1 0 3 .5.5 0 0 0-.5.5v1.5A1.5 1.5 0 0 0 1.5 13h13a1.5 1.5 0 0 0 1.5-1.5V10a.5.5 0 0 0-.5-.5 1.5 1.5 0 0 1 0-3A.5.5 0 0 0 16 6V4.5A1.5 1.5 0 0 0 14.5 3h-13ZM1 4.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v1.05a2.5 2.5 0 0 0 0 4.9v1.05a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-1.05a2.5 2.5 0 0 0 0-4.9V4.5Z"/>
+                                </svg>
+                            </div>
+                            <div class="bar-2"></div>
+                            <div class="fonction-content fonction-content-1">
+                                <h2 class="text-bold">Tous tes billets dans ta poche</h2>
+                                <div class="bar"></div>
+                                <p>Réserve ton billet en ligne et retrouve le sur l'appli à tout moment, où que tu sois.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+                <section class="bg-secondary">
+                    <h1 id="sorties" class="container-2 title-sorties">
+                        <div class="bar"></div>
+                        Des idées de sortie !
+                    </h1>
+
+                    <div class="block-sortie">
+                        <div class="block-sortie-content">
+                            <img src="../../ressources/images/cinema.png" alt="">
+                            <p>Cinéma</p>
+                        </div>
+                        <div class="block-sortie-content">
+                            <img src="../../ressources/images/theatre.png" alt="">
+                            <p>Théâtre</p>
+                        </div>
+                        <div class="block-sortie-content">
+                            <img src="../../ressources/images/danse.png" alt="">
+                            <p>Danse</p>
+                        </div>
+                        <div class="block-sortie-content">
+                            <img src="../../ressources/images/concert.png" alt="">
+                            <p>Concert</p>
+                        </div>
+                        <div class="block-sortie-content">
+                            <img src="../../ressources/images/enfants.png" alt="">
+                            <p>Jeune public</p>
+                        </div>
+                        <div class="block-sortie-content">
+                            <img src="../../ressources/images/art.png" alt="">
+                            <p>Ateliers</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <section class="structure">
+                <div class="container-structure">
+                    <h1 id="pro">
+                        <div class="bar"></div>
+                        Je suis une structure culturelle
+                    </h1>
+                    <div class="paragraph">
+                        <p>Je suis une structure culturelle dans l'agglomération de Caen
+                            et je souhaite être référencée sur l'application Dana, ajouter
+                            des événements et mettre en vente des billets en ligne.</p>
+                    </div>
+                    <a class="btn btn-primary" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdRZUOPWGP56bxWjNoTl7dEZlVbTdu9eDPi9yQ0MyHZQQvnNA/viewform">
+                        <p>Remplir le formulaire
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                            </svg>
+                        </p>
+                    </a>
+                </div>
+            </section>
+
+            <section>
+                <div class="container-3">
+                    <div class="form">
+                        <a class="btn btn-secondary" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSe36G2zzIAMAB5WJGPE4TlGYQXbcBrB1k3IvmKvTbwhyYWKFg/viewform">
+                            <p>ça m'intéresse</p>
+                        </a>
+                        <div class="logo">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" fill="#2F195F" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+                            </svg>
+                        </div>
+                        <div class="phone">
+                            <div class="logos">
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="#2F195F" class="bi bi-instagram" viewBox="0 0 16 16">
+                                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="#2F195F" class="bi bi-facebook" viewBox="0 0 16 16">
+                                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="#2F195F" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                            <img src="../../ressources/images/Rectangle.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!--? /Main -->
+    </main>
+    <footer>
+        <div class="left">
+            <img src="../../ressources/images/Dana.png" alt="Dana">
+            <h1>
+                <div class="bar"></div>
+                Tes sorties culturelles en 1 clic.
+            </h1>
+        </div>
+        <nav>
+            <a href="#offres">Offres</a>
+            <a href="#fonctionnalites">Fonctionnalités</a>
+            <a href="#sorties">Sorties</a>
+            <a href="#pro">Pour les pros</a>
+            <a href="#">Mentions légales</a>
+        </nav>
+        <div class="contact">
+            <div class="row">
+                <div class="image">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="icon" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                    </svg>
+                </div>
+                <h1>Contact</h1>
+            </div>
+            <p class="mail" onclick="copy()">contacter.dana@gmail.com</p>
+            <a class="btn btn-primary" href="mailto:contacter.dana@gmail.com">
+                <p>Nous contacter</p>
+            </a>
+        </div>
+    </footer>
+</body>
+{{ encore_entry_script_tags('landing_page') }}
+</html>

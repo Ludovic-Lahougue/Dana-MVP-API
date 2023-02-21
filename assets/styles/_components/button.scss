@@ -1,0 +1,15 @@
+.btn-1 {
+    display: block;
+    background-color: $dana-1;
+    width: 100%;
+    padding: 2vh 2vw;
+    margin-bottom: 2vh;
+    box-sizing: border-box;
+    border-radius: 7vw;
+    border: none;
+    font-size: max(1.5vw, .7rem);
+    letter-spacing: 1px;
+    font-family: 'poppinsregular';
+    color: $dana-3;
+    border: solid 2px $dana-3;
+}
