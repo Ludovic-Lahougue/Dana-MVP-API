@@ -1,0 +1,25 @@
+.sidebar {
+    background-color: $dana-1;
+    width: 33%;
+    border-top-right-radius: 10vw;
+    padding: 5vh 3vw;
+
+    .img {
+        background-color: #fff;
+        width: 10vw;
+        height: 10vw;
+        border-radius: 50vw;
+    }
+
+    h3, h4, h5 {
+        margin-top: 2vw;
+        color: #fff;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    p {
+        color: #fff;
+        font-size: 1.2rem;
+    }
+}

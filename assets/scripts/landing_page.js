@@ -3,16 +3,11 @@ import '../styles/landing_page_mobile.css'
 import '../fonts/poppins/poppins-1/stylesheet.css'
 import '../fonts/poppins/poppins-2/stylesheet.css'
 
-function copy() {
-    navigator.clipboard.writeText('contacter.dana@gmail.com');
-    alert("L'adresse mail a été copiée dans le presse papier.");
-}
-
 document.addEventListener('DOMContentLoaded', () => {
     document.addEventListener('click', event => {
         const menu = document.getElementById('topNav')
         const links = menu.getElementsByTagName('a')
-        for(link of links) {
+        for(const link of links) {
             link.addEventListener('click', () => {
                 document.getElementById('topNav').classList.remove('active')
                 checkScroll()

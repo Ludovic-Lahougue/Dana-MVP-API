@@ -3,3 +3,12 @@ $dana-2: #0282f1;
 $dana-3: #ffd5e5;
 $dana-4: #ec5d39;
 $dana-5: #ff72ce;
+
+$primary:       $dana-1 !default;
+$secondary:     $dana-4 !default;
+$success:       $dana-2 !default;
+$info:          $dana-2 !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-900 !default;

@@ -1,10 +1,38 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Professionnel - Dana{% endblock %}
+{% block stylesheets %}
+	{{ parent() }}
+{% endblock %}
+
+{% block javascripts %}
+	{{ parent() }}
+	{{ encore_entry_script_tags('pro') }}
+{% endblock %}
+
+{% block title %}Professionnel - Dana
+{% endblock %}
 
 {% block body %}
-{% include "_parts/navbar.html.twig" %}
-<div class="container">
-    <h1 class="text-center">Page des pros</h1>
-</div>
+	{% include "_parts/navbar.html.twig" %}
+	<div class="d-flex flex-row">
+		<div class="sidebar d-flex flex-column align-items-center">
+			<div class="img"></div>
+			<h3>Nom structure</h3>
+			<div class="align-self-start">
+				<h5>Évènements à venir</h5>
+				{% if nextEvents is defined and nextEvents|length > 0 %}
+					<ul>
+						{% for event in nextEvents %}
+							<li class="text-white">{{ event.name }}</li>
+						{% endfor %}
+					</ul>
+				{% else %}
+					<p>Aucun évènement</p>
+				{% endif %}
+				
+			</div>
+			<a href="{{ path('app_event_new') }}" class="btn btn-outline-light fs-4 mt-auto">Ajouter un évènement</a>
+		</div>
+		<div id="calendar" class="px-1 align-self-center"></div>
+	</div>
 {% endblock %}

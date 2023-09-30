@@ -1,16 +1,24 @@
-@import "node_modules/bootstrap/scss/bootstrap";
+@import './custom-bootstrap.scss';
 
 @import "./variables.scss";
 @import "./icons.scss";
 @import "../fonts/poppins/poppins-2/stylesheet.css";
 
+@import "./_components/navbar.scss";
 @import "./_components/form.scss";
 @import "./_components/button.scss";
+@import "./_components/calendar.scss";
 
 @import "./pages/login.scss";
+@import "./pages/pro.scss";
 
 html, body {
     height: 100%;
     width: 100%;
     overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    font-family: 'poppinsregular';
 }

@@ -1,0 +1,15 @@
+.navbar {
+    height: 15vh;
+
+    .nav-img {
+        width: auto;
+        height: 15vh;
+        object-fit: contain;
+    }
+
+    .nav-link {
+        color: $dana-1;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}

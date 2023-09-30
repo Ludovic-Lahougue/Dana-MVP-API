@@ -12,9 +12,7 @@ select:-webkit-autofill:focus {
 }
 
 .login-container {
-    height: 100%;
     background-color: $dana-1;
-    overflow: hidden;
 }
 
 .ic {
@@ -24,29 +22,13 @@ select:-webkit-autofill:focus {
 }
 
 .dana-pattern {
-    position: absolute;
-    top: 50%;
-    left: 0%;
-    transform: translate(-7%, -50%);
     width: auto;
-    height: 110%;
+    height: 130%;
     opacity: .4;
-}
-
-.dana-slogan {
-    position: absolute;
-    top: 100%;
-    left: 100%;
-    transform: translate(-100%, -100%);
-    width: auto;
-    height: 20%;
+    transform: translate(-10%, -7%);
 }
 
 .form-container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     width: 40%;
     text-align: center;
     padding: 15vh 0;

@@ -1206,6 +1206,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.8.7":
+  version: 7.21.0
+  resolution: "@babel/runtime@npm:7.21.0"
+  dependencies:
+    regenerator-runtime: ^0.13.11
+  checksum: 7b33e25bfa9e0e1b9e8828bb61b2d32bdd46b41b07ba7cb43319ad08efc6fda8eb89445193e67d6541814627df0ca59122c0ea795e412b99c5183a0540d338ab
+  languageName: node
+  linkType: hard
+
 "@babel/runtime@npm:^7.8.4":
   version: 7.20.13
   resolution: "@babel/runtime@npm:7.20.13"
@@ -1259,6 +1268,73 @@ __metadata:
   version: 0.5.7
   resolution: "@discoveryjs/json-ext@npm:0.5.7"
   checksum: 2176d301cc258ea5c2324402997cf8134ebb212469c0d397591636cea8d3c02f2b3cf9fd58dcb748c7a0dade77ebdc1b10284fa63e608c033a1db52fddc69918
+  languageName: node
+  linkType: hard
+
+"@fullcalendar/bootstrap@npm:^6.1.4":
+  version: 6.1.4
+  resolution: "@fullcalendar/bootstrap@npm:6.1.4"
+  peerDependencies:
+    "@fullcalendar/core": ~6.1.4
+  checksum: a2ab043a661d8474356a0dd03531901b8b8e9249a8a8221d2fb70779be12076b002474fd4a0d91e3e185c79a90859979126c8e3647288aa44f2e345d9821e108
+  languageName: node
+  linkType: hard
+
+"@fullcalendar/core@npm:~6.1.4":
+  version: 6.1.4
+  resolution: "@fullcalendar/core@npm:6.1.4"
+  dependencies:
+    preact: ^10.0.5
+  checksum: 3c659bbaf814a1f084ddd3e2eeaf68bb48f268a36560abb399c4aa29a40d6017c5bb1cd87c43664f333a1f6682c32b6a85ffb661538ea0faa78a1c119760a381
+  languageName: node
+  linkType: hard
+
+"@fullcalendar/daygrid@npm:~6.1.4":
+  version: 6.1.4
+  resolution: "@fullcalendar/daygrid@npm:6.1.4"
+  peerDependencies:
+    "@fullcalendar/core": ~6.1.4
+  checksum: 24b3c6e521c5e5288cb05d34e080daace1138b4b421a5dd059938a8c9b7730374b7f07908984b124d48e810276a3c24f1e1c7b6080d375ca80e4d7ef387d7774
+  languageName: node
+  linkType: hard
+
+"@fullcalendar/interaction@npm:~6.1.4":
+  version: 6.1.4
+  resolution: "@fullcalendar/interaction@npm:6.1.4"
+  peerDependencies:
+    "@fullcalendar/core": ~6.1.4
+  checksum: 5e282ba36bfbc306e8e36ea88b9df0c5a11b7bcdf4c8952377396da24a3ca058b436a39e9002eba9fc1ca8ce70ca23ef2fd74ef08f48d4b8b45576f7e30a6bea
+  languageName: node
+  linkType: hard
+
+"@fullcalendar/list@npm:~6.1.4":
+  version: 6.1.4
+  resolution: "@fullcalendar/list@npm:6.1.4"
+  peerDependencies:
+    "@fullcalendar/core": ~6.1.4
+  checksum: 0338a8bb1546e103921d1d6a5baf54b9d43759d9aaf905357c2272e01cbd42e120812128b2f2661d0ef82abc0b8447b16e6f1618968487ffa4c6f0a570f907d5
+  languageName: node
+  linkType: hard
+
+"@fullcalendar/multimonth@npm:~6.1.4":
+  version: 6.1.4
+  resolution: "@fullcalendar/multimonth@npm:6.1.4"
+  dependencies:
+    "@fullcalendar/daygrid": ~6.1.4
+  peerDependencies:
+    "@fullcalendar/core": ~6.1.4
+  checksum: a8659a2bd9c2612f05bbd3b6e92c4a5330b1e2bf77b69678bed5eec08ef5e6885ae65762e02df5f941e866795b62454855a7bf58024e5dbcd125058a904cc1fb
+  languageName: node
+  linkType: hard
+
+"@fullcalendar/timegrid@npm:~6.1.4":
+  version: 6.1.4
+  resolution: "@fullcalendar/timegrid@npm:6.1.4"
+  dependencies:
+    "@fullcalendar/daygrid": ~6.1.4
+  peerDependencies:
+    "@fullcalendar/core": ~6.1.4
+  checksum: 1329b941f94e2c17a866e612e7d92adacbca0364ba7e76908caa2a936f526c0cde43fa050f571634dd2db2e779f1cbd3115b64cbc0b524d34f0c4d61243659b8
   languageName: node
   linkType: hard
 
@@ -1748,6 +1824,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/prop-types@npm:*":
+  version: 15.7.5
+  resolution: "@types/prop-types@npm:15.7.5"
+  checksum: 5b43b8b15415e1f298243165f1d44390403bb2bd42e662bca3b5b5633fdd39c938e91b7fce3a9483699db0f7a715d08cef220c121f723a634972fdf596aec980
+  languageName: node
+  linkType: hard
+
 "@types/qs@npm:*":
   version: 6.9.7
   resolution: "@types/qs@npm:6.9.7"
@@ -1762,10 +1845,37 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/react-transition-group@npm:^4.4.1":
+  version: 4.4.5
+  resolution: "@types/react-transition-group@npm:4.4.5"
+  dependencies:
+    "@types/react": "*"
+  checksum: 265f1c74061556708ffe8d15559e35c60d6c11478c9950d3735575d2c116ca69f461d85effa06d73a613eb8b73c84fd32682feb57cf7c5f9e4284021dbca25b0
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:*":
+  version: 18.0.35
+  resolution: "@types/react@npm:18.0.35"
+  dependencies:
+    "@types/prop-types": "*"
+    "@types/scheduler": "*"
+    csstype: ^3.0.2
+  checksum: e65670397216e037b150a509ec08189140b4c20b82b612ac00b2a7133202be2d1def1e7ee69617b2df06ab4c00c43c4ee23e84788ad661aea9664da2f27c518a
+  languageName: node
+  linkType: hard
+
 "@types/retry@npm:0.12.0":
   version: 0.12.0
   resolution: "@types/retry@npm:0.12.0"
   checksum: 61a072c7639f6e8126588bf1eb1ce8835f2cb9c2aba795c4491cf6310e013267b0c8488039857c261c387e9728c1b43205099223f160bb6a76b4374f741b5603
+  languageName: node
+  linkType: hard
+
+"@types/scheduler@npm:*":
+  version: 0.16.3
+  resolution: "@types/scheduler@npm:0.16.3"
+  checksum: 2b0aec39c24268e3ce938c5db2f2e77f5c3dd280e05c262d9c2fe7d890929e4632a6b8e94334017b66b45e4f92a5aa42ba3356640c2a1175fa37bef2f5200767
   languageName: node
   linkType: hard
 
@@ -2382,6 +2492,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"bootstrap-icons@npm:^1.10.3":
+  version: 1.10.3
+  resolution: "bootstrap-icons@npm:1.10.3"
+  checksum: bef7f83ce09f0ae0b2a92d61b69f3c6d04ba2307e9051ab3f175613837e0dc5252d22e2b3a0403b59995be4e06ebe00f17d0335be6f2cffdbfdbefa9268b6abd
+  languageName: node
+  linkType: hard
+
 "bootstrap@npm:^5.2.3":
   version: 5.2.3
   resolution: "bootstrap@npm:5.2.3"
@@ -2970,6 +3087,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"csstype@npm:^3.0.2":
+  version: 3.1.2
+  resolution: "csstype@npm:3.1.2"
+  checksum: e1a52e6c25c1314d6beef5168da704ab29c5186b877c07d822bd0806717d9a265e8493a2e35ca7e68d0f5d472d43fac1cdce70fd79fd0853dff81f3028d857b5
+  languageName: node
+  linkType: hard
+
 "debug@npm:2.6.9":
   version: 2.6.9
   resolution: "debug@npm:2.6.9"
@@ -3082,6 +3206,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dom-helpers@npm:^5.0.1":
+  version: 5.2.1
+  resolution: "dom-helpers@npm:5.2.1"
+  dependencies:
+    "@babel/runtime": ^7.8.7
+    csstype: ^3.0.2
+  checksum: 863ba9e086f7093df3376b43e74ce4422571d404fc9828bf2c56140963d5edf0e56160f9b2f3bb61b282c07f8fc8134f023c98fd684bddcb12daf7b0f14d951c
+  languageName: node
+  linkType: hard
+
 "dom-serializer@npm:^1.0.1":
   version: 1.4.1
   resolution: "dom-serializer@npm:1.4.1"
@@ -3138,6 +3272,13 @@ __metadata:
   version: 8.0.0
   resolution: "emoji-regex@npm:8.0.0"
   checksum: d4c5c39d5a9868b5fa152f00cada8a936868fd3367f33f71be515ecee4c803132d11b31a6222b2571b1e5f7e13890156a94880345594d0ce7e3c9895f560f192
+  languageName: node
+  linkType: hard
+
+"emojis-list@npm:^2.0.0":
+  version: 2.1.0
+  resolution: "emojis-list@npm:2.1.0"
+  checksum: fb61fa6356dfcc9fbe6db8e334c29da365a34d3d82a915cb59621883d3023d804fd5edad5acd42b8eec016936e81d3b38e2faf921b32e073758374253afe1272
   languageName: node
   linkType: hard
 
@@ -3487,6 +3628,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fos-router@file:./vendor/friendsofsymfony/jsrouting-bundle/Resources::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 2.4.3
+  resolution: "fos-router@file:./vendor/friendsofsymfony/jsrouting-bundle/Resources#./vendor/friendsofsymfony/jsrouting-bundle/Resources::hash=49d14a&locator=root-workspace-0b6124%40workspace%3A."
+  dependencies:
+    webpack-inject-plugin: ^1.5.5
+  checksum: 2e4d51139eb9ec495b482d679521a73280a583c1f997072404f90974d2f5b0c42db305aa6403a1025adbd81292c8944e4c96f774acc10f1a2fc730595937e1d1
+  languageName: node
+  linkType: hard
+
 "fresh@npm:0.5.2":
   version: 0.5.2
   resolution: "fresh@npm:0.5.2"
@@ -3533,6 +3683,20 @@ __metadata:
   dependencies:
     node-gyp: latest
   conditions: os=darwin
+  languageName: node
+  linkType: hard
+
+"fullcalendar@npm:^6.1.4":
+  version: 6.1.4
+  resolution: "fullcalendar@npm:6.1.4"
+  dependencies:
+    "@fullcalendar/core": ~6.1.4
+    "@fullcalendar/daygrid": ~6.1.4
+    "@fullcalendar/interaction": ~6.1.4
+    "@fullcalendar/list": ~6.1.4
+    "@fullcalendar/multimonth": ~6.1.4
+    "@fullcalendar/timegrid": ~6.1.4
+  checksum: ae8d0eccf217214ddfd29f270bcf79f1b976e694dbef87cf96c5d83f59f2738112493e2722fb2361cadd5178f37c01909db950eeb3fe63e242c28b9a1b6aea04
   languageName: node
   linkType: hard
 
@@ -4160,7 +4324,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"js-tokens@npm:^4.0.0":
+"js-tokens@npm:^3.0.0 || ^4.0.0, js-tokens@npm:^4.0.0":
   version: 4.0.0
   resolution: "js-tokens@npm:4.0.0"
   checksum: 8a95213a5a77deb6cbe94d86340e8d9ace2b93bc367790b260101d2f36a2eaf4e4e22d9fa9cf459b38af3a32fb4190e638024cf82ec95ef708680e405ea7cc78
@@ -4203,6 +4367,17 @@ __metadata:
   version: 1.0.0
   resolution: "json-schema-traverse@npm:1.0.0"
   checksum: 02f2f466cdb0362558b2f1fd5e15cce82ef55d60cd7f8fa828cf35ba74330f8d767fcae5c5c2adb7851fa811766c694b9405810879bc4e1ddd78a7c0e03658ad
+  languageName: node
+  linkType: hard
+
+"json5@npm:^1.0.1":
+  version: 1.0.2
+  resolution: "json5@npm:1.0.2"
+  dependencies:
+    minimist: ^1.2.0
+  bin:
+    json5: lib/cli.js
+  checksum: 866458a8c58a95a49bef3adba929c625e82532bcff1fe93f01d29cb02cac7c3fe1f4b79951b7792c2da9de0b32871a8401a6e3c5b36778ad852bf5b8a61165d7
   languageName: node
   linkType: hard
 
@@ -4254,6 +4429,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"loader-utils@npm:~1.2.3":
+  version: 1.2.3
+  resolution: "loader-utils@npm:1.2.3"
+  dependencies:
+    big.js: ^5.2.2
+    emojis-list: ^2.0.0
+    json5: ^1.0.1
+  checksum: 385407fc2683b6d664276fd41df962296de4a15030bb24389de77b175570c3b56bd896869376ba14cf8b33a9e257e17a91d395739ba7e23b5b68a8749a41df7e
+  languageName: node
+  linkType: hard
+
 "locate-path@npm:^3.0.0":
   version: 3.0.0
   resolution: "locate-path@npm:3.0.0"
@@ -4298,6 +4484,17 @@ __metadata:
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
   checksum: eb835a2e51d381e561e508ce932ea50a8e5a68f4ebdd771ea240d3048244a8d13658acbd502cd4829768c56f2e16bdd4340b9ea141297d472517b83868e677f7
+  languageName: node
+  linkType: hard
+
+"loose-envify@npm:^1.4.0":
+  version: 1.4.0
+  resolution: "loose-envify@npm:1.4.0"
+  dependencies:
+    js-tokens: ^3.0.0 || ^4.0.0
+  bin:
+    loose-envify: cli.js
+  checksum: 6517e24e0cad87ec9888f500c5b5947032cdfe6ef65e1c1936a0c48a524b81e65542c9c3edc91c97d5bddc806ee2a985dbc79be89215d613b1de5db6d1cfe6f4
   languageName: node
   linkType: hard
 
@@ -4478,6 +4675,13 @@ __metadata:
   dependencies:
     brace-expansion: ^2.0.1
   checksum: 7564208ef81d7065a370f788d337cd80a689e981042cb9a1d0e6580b6c6a8c9279eba80010516e258835a988363f99f54a6f711a315089b8b42694f5da9d0d77
+  languageName: node
+  linkType: hard
+
+"minimist@npm:^1.2.0":
+  version: 1.2.8
+  resolution: "minimist@npm:1.2.8"
+  checksum: 75a6d645fb122dad29c06a7597bddea977258957ed88d7a6df59b5cd3fe4a527e253e9bbf2e783e4b73657f9098b96a5fe96ab8a113655d4109108577ecf85b0
   languageName: node
   linkType: hard
 
@@ -4726,7 +4930,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"object-assign@npm:^4.0.1":
+"object-assign@npm:^4.0.1, object-assign@npm:^4.1.1":
   version: 4.1.1
   resolution: "object-assign@npm:4.1.1"
   checksum: fcc6e4ea8c7fe48abfbb552578b1c53e0d194086e2e6bbbf59e0a536381a292f39943c6e9628af05b5528aa5e3318bb30d6b2e53cadaf5b8fe9e12c4b69af23f
@@ -5354,6 +5558,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"preact@npm:^10.0.5":
+  version: 10.13.0
+  resolution: "preact@npm:10.13.0"
+  checksum: d1629e52c01f25b83c8993bc2ae739ba338534015bd62456c21e19c1a2a4369643c93f709443028d9fabc1997bdc0aee7b9b2f4ac4dedc9529a6dbcc059fb762
+  languageName: node
+  linkType: hard
+
 "pretty-error@npm:^4.0.0":
   version: 4.0.0
   resolution: "pretty-error@npm:4.0.0"
@@ -5361,6 +5572,38 @@ __metadata:
     lodash: ^4.17.20
     renderkid: ^3.0.0
   checksum: a5b9137365690104ded6947dca2e33360bf55e62a4acd91b1b0d7baa3970e43754c628cc9e16eafbdd4e8f8bcb260a5865475d4fc17c3106ff2d61db4e72cdf3
+  languageName: node
+  linkType: hard
+
+"primeflex@npm:^3.3.1":
+  version: 3.3.1
+  resolution: "primeflex@npm:3.3.1"
+  checksum: 3811f48d9b453141a13bdbfb17f272d01a0bb02fc507d4b77dcd5471feccd4d9e80f10f67dfdfc8571672a568c1aadf03179dd6a4d8536b3f60f7fa060e5bfad
+  languageName: node
+  linkType: hard
+
+"primeicons@npm:^6.0.1":
+  version: 6.0.1
+  resolution: "primeicons@npm:6.0.1"
+  checksum: a1412fee16ddbd24e06052a7e94b973cf6f68fadb5349192101388f2681f822b3bde077948e6d53e9949f87148b495e4bf2b149ad07242de068d2e7233f4446c
+  languageName: node
+  linkType: hard
+
+"primereact@npm:^9.2.3":
+  version: 9.2.3
+  resolution: "primereact@npm:9.2.3"
+  dependencies:
+    "@types/react-transition-group": ^4.4.1
+    react-transition-group: ^4.4.1
+  peerDependencies:
+    "@types/react": ^17.0.0 || ^18.0.0
+    primeicons: ^5.0.0 || ^6.0.0
+    react: ^17.0.0 || ^18.0.0
+    react-dom: ^17.0.0 || ^18.0.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: 071d8768530e75a24b37f84afc7b24cef0381ea6bf2feba9bd870e9f1a593556e811c3401ee770d74a09b5e3a904a91a35a44003a505adbb8e231803d61e2a28
   languageName: node
   linkType: hard
 
@@ -5385,6 +5628,17 @@ __metadata:
     err-code: ^2.0.2
     retry: ^0.12.0
   checksum: f96a3f6d90b92b568a26f71e966cbbc0f63ab85ea6ff6c81284dc869b41510e6cdef99b6b65f9030f0db422bf7c96652a3fff9f2e8fb4a0f069d8f4430359429
+  languageName: node
+  linkType: hard
+
+"prop-types@npm:^15.6.2":
+  version: 15.8.1
+  resolution: "prop-types@npm:15.8.1"
+  dependencies:
+    loose-envify: ^1.4.0
+    object-assign: ^4.1.1
+    react-is: ^16.13.1
+  checksum: c056d3f1c057cb7ff8344c645450e14f088a915d078dcda795041765047fa080d38e5d626560ccaac94a4e16e3aa15f3557c1a9a8d1174530955e992c675e459
   languageName: node
   linkType: hard
 
@@ -5439,6 +5693,28 @@ __metadata:
     iconv-lite: 0.4.24
     unpipe: 1.0.0
   checksum: 5362adff1575d691bb3f75998803a0ffed8c64eabeaa06e54b4ada25a0cd1b2ae7f4f5ec46565d1bec337e08b5ac90c76eaa0758de6f72a633f025d754dec29e
+  languageName: node
+  linkType: hard
+
+"react-is@npm:^16.13.1":
+  version: 16.13.1
+  resolution: "react-is@npm:16.13.1"
+  checksum: f7a19ac3496de32ca9ae12aa030f00f14a3d45374f1ceca0af707c831b2a6098ef0d6bdae51bd437b0a306d7f01d4677fcc8de7c0d331eb47ad0f46130e53c5f
+  languageName: node
+  linkType: hard
+
+"react-transition-group@npm:^4.4.1":
+  version: 4.4.5
+  resolution: "react-transition-group@npm:4.4.5"
+  dependencies:
+    "@babel/runtime": ^7.5.5
+    dom-helpers: ^5.0.1
+    loose-envify: ^1.4.0
+    prop-types: ^15.6.2
+  peerDependencies:
+    react: ">=16.6.0"
+    react-dom: ">=16.6.0"
+  checksum: 75602840106aa9c6545149d6d7ae1502fb7b7abadcce70a6954c4b64a438ff1cd16fc77a0a1e5197cdd72da398f39eb929ea06f9005c45b132ed34e056ebdeb1
   languageName: node
   linkType: hard
 
@@ -5681,15 +5957,22 @@ __metadata:
   dependencies:
     "@babel/core": ^7.17.0
     "@babel/preset-env": ^7.16.0
+    "@fullcalendar/bootstrap": ^6.1.4
     "@hotwired/stimulus": ^3.0.0
     "@popperjs/core": ^2.11.6
     "@symfony/stimulus-bridge": ^3.2.0
     "@symfony/webpack-encore": ^4.0.0
     "@types/popper.js": ^1.11.0
     bootstrap: ^5.2.3
+    bootstrap-icons: ^1.10.3
     core-js: ^3.23.0
     file-loader: ^6.0.0
+    fos-router: ./vendor/friendsofsymfony/jsrouting-bundle/Resources
+    fullcalendar: ^6.1.4
     jquery: ^3.6.3
+    primeflex: ^3.3.1
+    primeicons: ^6.0.1
+    primereact: ^9.2.3
     regenerator-runtime: ^0.13.9
     sass: ^1.58.0
     sass-loader: ^13.0.0
@@ -6539,6 +6822,17 @@ __metadata:
   bin:
     webpack-dev-server: bin/webpack-dev-server.js
   checksum: b7601a39ee0f413988259e29a36835b0a68522cfaa161de5b7ec99b3399acdd99d44189add4aaf4a5191258bb130f9cf3e68919324a1955c7557f5fe6ab0d96c
+  languageName: node
+  linkType: hard
+
+"webpack-inject-plugin@npm:^1.5.5":
+  version: 1.5.5
+  resolution: "webpack-inject-plugin@npm:1.5.5"
+  dependencies:
+    loader-utils: ~1.2.3
+  peerDependencies:
+    webpack: ">=4.0.0"
+  checksum: 10cac91eb59a598950f930e032e3f7008f34871cb6e0dc3a06772a0240d78ddf427fba3b958b373e8f3cd03e6a748835eca20c2822f58858a09c38382ebeccff
   languageName: node
   linkType: hard
 

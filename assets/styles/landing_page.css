@@ -1,12 +1,12 @@
 :root {
-    --bg-main: #2F195F;
+    --bg-main: #331863;
     --bg-secondary: #fbf7ee;
     --bg-fonction-1: #f8d6c7;
     --bg-fonction-2: #f5bca9;
     --text-primary: #202020;
     --text-secondary: #fbf7ee;
     --bar: #ec5d39;
-    --icon-primary: #3981ea;
+    --icon-primary: #0282f1;
     --icon-secondary: #483571;
 }
 
@@ -432,6 +432,11 @@ footer .bar {
     margin-top: 5vh;
 }
 
+footer .left img {
+    width: 30%;
+    height: auto;
+}
+
 .contact {
     margin-left: 10vw;
     text-align: center;
@@ -452,14 +457,6 @@ padding-right: 1vw;
 .mail {
     margin-bottom: 2vh;
     background-color: var(--bg-main);
-    transition: 300ms ease-in 100ms;
-}
-
-.mail:hover {
-    background-color: var(--bar);
-    padding: 1vh 1vw;
-    border-radius: 3 vw;
-    transition: 300ms ease-in 100ms;
 }
 
 .contact .row {

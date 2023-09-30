@@ -13,3 +13,7 @@
     color: $dana-3;
     border: solid 2px $dana-3;
 }
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: $dana-1 !important;
+}

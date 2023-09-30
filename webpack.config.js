@@ -24,6 +24,11 @@ Encore
         to: 'fonts/[path][name].[ext]',
     })
 
+    .copyFiles({
+        from: './assets/js',
+        to: 'js/[path][name].[ext]',
+    })
+
     /*
      * ENTRY CONFIG
      *
@@ -32,6 +37,7 @@ Encore
      */
     .addEntry('app', './assets/app.js')
     .addEntry('landing_page', './assets/scripts/landing_page.js')
+    .addEntry('pro', './assets/scripts/pro.js')
 
     // enables the Symfony UX Stimulus bridge (used in assets/bootstrap.js)
     .enableStimulusBridge('./assets/controllers.json')

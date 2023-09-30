@@ -8,6 +8,7 @@
         "bootstrap": "^5.2.3",
         "core-js": "^3.23.0",
         "file-loader": "^6.0.0",
+        "fos-router": "./vendor/friendsofsymfony/jsrouting-bundle/Resources",
         "regenerator-runtime": "^0.13.9",
         "sass": "^1.58.0",
         "sass-loader": "^13.0.0",
@@ -24,8 +25,14 @@
         "build": "encore production --progress"
     },
     "dependencies": {
+        "@fullcalendar/bootstrap": "^6.1.4",
         "@popperjs/core": "^2.11.6",
         "@types/popper.js": "^1.11.0",
-        "jquery": "^3.6.3"
+        "bootstrap-icons": "^1.10.3",
+        "fullcalendar": "^6.1.4",
+        "jquery": "^3.6.3",
+        "primeflex": "^3.3.1",
+        "primeicons": "^6.0.1",
+        "primereact": "^9.2.3"
     }
 }
